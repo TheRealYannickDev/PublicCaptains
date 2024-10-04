@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5528860140167107102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186057747863863374}
+  - component: {fileID: 3364163729071469631}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &186057747863863374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528860140167107102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2493813, y: -0.83880484, z: -7.429416}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3364163729071469631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528860140167107102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0beb93e535805634484e3c940eae586b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixerSounds: {fileID: -8732963622696004472, guid: d567e55416d4a1049a7f7d9aed15eba1, type: 2}
+  audioMixerMusic: {fileID: 5660320218540850854, guid: d567e55416d4a1049a7f7d9aed15eba1, type: 2}
+  sounds:
+  - name: Hit0
+    clip: {fileID: 8300000, guid: fa19fe2beb30d3a428b8bfa9919f4e54, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Hit1
+    clip: {fileID: 8300000, guid: ae6e266555938d845b1ac730698ff40b, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Hit2
+    clip: {fileID: 8300000, guid: 341336689899497459b407556724cbc3, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Hit3
+    clip: {fileID: 8300000, guid: b4abcc494b613154b98c19b1cd7931cf, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Hit4
+    clip: {fileID: 8300000, guid: 9d6d9fc77273d4840a44714372754b11, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Wasser0
+    clip: {fileID: 8300000, guid: dcca4263b0a53354fbe73bf36261d460, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Wasser1
+    clip: {fileID: 8300000, guid: 6dddffee4667ba9458b1914237d2d986, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Wasser2
+    clip: {fileID: 8300000, guid: 360f68af99878384bbe534d851bb4ed7, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Wasser3
+    clip: {fileID: 8300000, guid: 41b0d5856252e734abfc264d09e5a8e7, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Wasser4
+    clip: {fileID: 8300000, guid: 5465a42b81a0dfd43b3d7f5a9bec8d03, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot0
+    clip: {fileID: 8300000, guid: 4acbbe976ea220941ac78a732f5d55c8, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot1
+    clip: {fileID: 8300000, guid: 798e2f9d89d0ae744a63bfd3605934c1, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot2
+    clip: {fileID: 8300000, guid: 94ece2f79f61d364886e42fe5911d9db, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot3
+    clip: {fileID: 8300000, guid: 7f4ebc9736e95b747a476286b465aab4, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot4
+    clip: {fileID: 8300000, guid: be547d940ee02c4468eb081448dc2f73, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot5
+    clip: {fileID: 8300000, guid: 9ae2ce3c96a388243abfcfac7767bd14, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot6
+    clip: {fileID: 8300000, guid: 355635468bfff5344b1e51efd43410f4, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot7
+    clip: {fileID: 8300000, guid: 9bb0876713ec49f45afcccb7f9455b47, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot8
+    clip: {fileID: 8300000, guid: 5f5b27f87f14ca1438b3b71b417a614b, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot9
+    clip: {fileID: 8300000, guid: 6c0640e045e42eb41ad40869ccd93b73, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Shot9
+    clip: {fileID: 8300000, guid: 6c0640e045e42eb41ad40869ccd93b73, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Blitz0
+    clip: {fileID: 8300000, guid: 535c96df2c8c3344caa5e6ff3809b149, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Blitz1
+    clip: {fileID: 8300000, guid: 7460c78b33933fb4d9fe8fdf07ffa385, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Blitz2
+    clip: {fileID: 8300000, guid: 4e8170ae122fe344f9bfad528a4ae3ac, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  - name: Blitz3
+    clip: {fileID: 8300000, guid: 7a08316141ae840409b157954e3a32ed, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 0
+  music:
+  - name: Lobby
+    clip: {fileID: 8300000, guid: 2e3cf5c000e3c704f99cc463b83f87f4, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 1
+  - name: Battle
+    clip: {fileID: 8300000, guid: 25895dddfe1d88149b9ad50a05dd9c0e, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 1
+  - name: Victory
+    clip: {fileID: 8300000, guid: f1f4e73a4d2741745a3af4cdd8cc645f, type: 3}
+    volume: 1
+    pitch: 1
+    stereoPan: 0
+    loop: 1
+  music2: []

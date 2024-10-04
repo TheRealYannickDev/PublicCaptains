@@ -1,0 +1,88 @@
+{
+    "name": "PlayerControll",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0f653970-7c63-4ded-903f-e8c9a494543b",
+            "actions": [
+                {
+                    "name": "Drehen",
+                    "type": "Button",
+                    "id": "17eeaabf-1a28-4ffd-96d8-caee9b7853f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Schießen",
+                    "type": "Button",
+                    "id": "caf8c8da-9296-4c2e-91d0-cfe844fe7c23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "584ed179-b931-408f-aa3b-faab6b1a4914",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drehen",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "fd769499-b062-4bab-80b1-f365729850ae",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "StandardControll",
+                    "action": "Drehen",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "fa7165a4-1fb1-4f86-9b29-33d132e65a29",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "StandardControll",
+                    "action": "Drehen",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ce07e0e6-a16d-45b3-8443-12cc4c3759ae",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "StandardControll",
+                    "action": "Schießen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "StandardControll",
+            "bindingGroup": "StandardControll",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>/{Back}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

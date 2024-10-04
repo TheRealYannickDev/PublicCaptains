@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/Scenes/Men\xFC.unity"
+    guid: 6b86e32c721df6440ac6cb2b2b2f7878
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: c2cdbf62fb0bc724bb9a8b51360458ea
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: b27ead9696d2cf749b88105fb2b0102d
+  - enabled: 1
+    path: Assets/Scenes/TeamGameOverScreen.unity
+    guid: 53ecf2a77e4cc0945bac8147a14735fc
+  - enabled: 1
+    path: Assets/Scenes/StreamOnlyLobby.unity
+    guid: 47a4219bdee4222449b2de524db7f6b0
+  - enabled: 1
+    path: "Assets/Scenes/StreamOnlyMen\xFC.unity"
+    guid: 6816162149197ec4d97cf857747d9818
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 4592a2f9e0040814c9c9dc8aed3da158, type: 2}
